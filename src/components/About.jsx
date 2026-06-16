@@ -38,13 +38,9 @@ const About = () => {
         <h2 className={`${styles.sectionHeadText}`}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I&apos;m a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        SPFx. I&apos;m a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let&apos;s work together to bring your ideas to life!
+        I&apos;m a results-driven Full-Stack Software Developer with 2+ years of professional experience designing and delivering scalable web applications. I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js), SharePoint Framework (SPFx), and modern front-end ecosystems including TypeScript, Tailwind CSS, and Fluent UI. Let&apos;s work together to bring your ideas to life!
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-8'>
+      <div className='mt-20 flex flex-wrap gap-8 justify-center sm:justify-start'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

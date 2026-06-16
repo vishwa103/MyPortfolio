@@ -37,19 +37,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "MERN Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "SPFx / SharePoint Developer",
     icon: backend,
   },
   {
-    title: "Mobile Developer",
+    title: "TypeScript Developer",
     icon: creator,
   },
 ];
@@ -111,29 +111,42 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer Trainee (Intern)",
-    company_name: "AMYPO Technologies",
-    icon: amypo,
-    iconBg: "#383E56",
-    date: "Feb 2023 - Mar 2023",
+    title: "Software Developer",
+    company_name: "Starnxt Solutions LLP",
+    icon: defaultCompanyLogo,
+    iconBg: "#E6DEDD",
+    date: "Apr 2026 - Present",
     points: [
-      "Developed responsive web applications using React.js with focus on clean UI/UX and reusable components.",
-      "Built and contributed modular components to improve performance and scalability.",
-      "Worked with modern frontend technologies and gained practical industry experience.",
-      "Collaborated with team members to deliver efficient web solutions."
+      "Promoted to Software Developer in recognition of technical growth, ownership of complex modules, and consistent delivery of high-quality solutions.",
+      "Taking increased ownership of system architecture decisions, code reviews, and mentoring junior team members."
     ],
   },
   {
-    title: "Software Developer",
-    company_name: "T-NXT India Private Limited",
-    icon: defaultCompanyLogo, // add your icon import
-    iconBg: "#E6DEDD",
-    date: "Jun 2023 - Present",
+    title: "Junior Software Developer",
+    company_name: "T-NXT India Private Limited (rebranded to Starnxt Solutions LLP)",
+    icon: defaultCompanyLogo,
+    iconBg: "#383E56",
+    date: "Jun 2023 - Mar 2026",
     points: [
-      "Worked on MERN stack applications including MongoDB, Express.js, React, and Node.js.",
-      "Developed ERP solutions using SharePoint Framework (SPFx) for internal business operations.",
-      "Built scalable UI using React, Fluent UI, Bootstrap, and integrated APIs using Axios.",
-      "Collaborated in agile teams, contributing to code quality, performance optimization, and feature development."
+      "Promoted from intern to permanent Junior Developer within 5 months, recognising early contributions to production-grade applications.",
+      "Architected and delivered a custom ERP system using SPFx + React.js integrated with SharePoint Online, streamlining internal procurement and asset management workflows.",
+      "Built RESTful APIs with Node.js / Express.js consumed by React frontends, reducing average API response time through query optimisation and caching strategies.",
+      "Developed an E-commerce platform (MERN stack) with product catalogue, cart, and order management modules serving real end-users.",
+      "Implemented PDF generation and role-based access control (RBAC) for a Purchase Requisition system, improving compliance and audit readiness.",
+      "Collaborated in a cross-functional agile team using Git branching strategies, code reviews, and sprint ceremonies to maintain code quality and on-time delivery.",
+      "Integrated third-party APIs via Axios, ensuring robust error handling and seamless data flow between services."
+    ],
+  },
+  {
+    title: "Web Developer Intern",
+    company_name: "Amypo Technologies",
+    icon: amypo,
+    iconBg: "#E6DEDD",
+    date: "Feb 2023 - Mar 2023",
+    points: [
+      "Developed a responsive web application using React.js with emphasis on clean UI/UX and reusable component architecture.",
+      "Contributed reusable open-source UI components improving modularity, reusability, and front-end performance.",
+      "Gained foundational exposure to agile development workflows and real-world project delivery practices."
     ],
   },
 ];
@@ -169,7 +182,7 @@ const projects = [
   {
     name: "Purchase Requisition (PR) System",
     description:
-      "SharePoint-based application built using SPFx and React.js to digitize and manage purchase requisition workflows with role-based access, PDF generation, and a centralized dashboard for tracking requests.",
+      "Digitised end-to-end procurement workflow with role-based access, real-time status tracking, and automated PDF export for audit compliance. Built a centralised dashboard surfacing all PR records with live SharePoint list data, reducing manual reporting effort by an estimated 60%. Designed fully responsive, accessible UI following Microsoft Fluent Design principles.",
     tags: [
       {
         name: "spfx",
@@ -192,9 +205,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Natural Food E-commerce Platform",
+    name: "E-Commerce Platform – Natural Food Products",
     description:
-      "Full-stack MERN e-commerce platform for natural food products featuring product browsing, order management, optimized APIs, and a responsive user-friendly interface.",
+      "Led full-stack development of product listing, cart, and order management modules from requirements through deployment. Optimised MongoDB queries and REST API endpoints, improving page-load responsiveness and reducing server round-trips. Delivered an intuitive UX increasing user engagement through streamlined navigation and checkout flow.",
     tags: [
       {
         name: "mern",
@@ -219,7 +232,7 @@ const projects = [
   {
     name: "Asset Management System",
     description:
-      "SPFx-based asset tracking system rebuilt from a legacy platform, enabling users to request, return, and monitor assets with real-time SharePoint list integration and responsive UI.",
+      "Re-engineered a legacy asset management tool with SPFx + React.js, achieving measurable improvements in performance and maintainability. Enabled real-time asset inventory visibility via SharePoint Lists, replacing manual spreadsheet tracking. Delivered cross-device responsive UI accessible on desktop, tablet, and mobile viewports.",
     tags: [
       {
         name: "spfx",
