@@ -26,6 +26,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png"
 import defaultCompanyLogo from "./company/default.png"
+import amypo from "./company/amypo.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +59,7 @@ export {
   starbucks,
   tesla,
   defaultCompanyLogo,
+  amypo,
   carrent,
   jobit,
   tripguide,

@@ -16,9 +16,7 @@ import {
   figma,
   docker,
   defaultCompanyLogo,
-  carrent,
-  jobit,
-  tripguide,
+  amypo,
   threejs,
 } from "../assets";
 
@@ -115,7 +113,7 @@ const experiences = [
   {
     title: "Web Developer Trainee (Intern)",
     company_name: "AMYPO Technologies",
-    icon: defaultCompanyLogo, // add your icon import
+    icon: amypo,
     iconBg: "#383E56",
     date: "Feb 2023 - Mar 2023",
     points: [
